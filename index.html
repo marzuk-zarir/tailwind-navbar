@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Vite App</title>
+      <script type="module" crossorigin src="/assets/index.af726bda.js"></script>
+      <link rel="stylesheet" href="/assets/index.b7253009.css">
+    </head>
+    <body>
+        <nav class="bg-amber-400 relative py-4 shadow-md">
+            <div class="container mx-auto px-4 flex items-center">
+                <a href="#" class="w-52 sm:w-60 hover:opacity-80">
+                    <img src="logo.svg" alt="Home Smart" />
+                </a>
+
+                <button id="nav-toggler" class="ml-auto md:hidden">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-menu-2"
+                        width="40"
+                        height="40"
+                        viewBox="0 0 24 24"
+                        stroke-width="2.5"
+                        stroke="#2c3e50"
+                        fill="none"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    >
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <line x1="4" y1="6" x2="20" y2="6" />
+                        <line x1="4" y1="12" x2="20" y2="12" />
+                        <line x1="4" y1="18" x2="20" y2="18" />
+                    </svg>
+                </button>
+
+                <div
+                    id="nav-menu"
+                    class="hidden flex-col items-center mx-auto text-neutral-800 absolute top-full left-0 bg-amber-400 w-full p-5 gap-8 shadow-md md:flex md:flex-row md:static md:shadow-none md:justify-end md:p-0"
+                >
+                    <ul class="flex flex-col font-semibold text-center gap-4 md:flex-row">
+                        <li>
+                            <a
+                                href="#"
+                                class="w-full px-5 py-2 md:px-2 md:py-0 hover:text-neutral-600"
+                                >Home</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="#"
+                                class="w-full px-5 py-2 md:px-2 md:py-0 hover:text-neutral-600"
+                                >About</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="#"
+                                class="w-full px-5 py-2 md:px-2 md:py-0 hover:text-neutral-600"
+                                >Blog</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="#"
+                                class="w-full px-5 py-2 md:px-2 md:py-0 hover:text-neutral-600"
+                                >Contact</a
+                            >
+                        </li>
+                    </ul>
+                    <button
+                        class="font-medium px-4 py-3 text-sm bg-green-700 text-white rounded-md shadow-sm"
+                    >
+                        GET STARTED
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </body>
+</html>
